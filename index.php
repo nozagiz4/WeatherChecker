@@ -115,7 +115,7 @@
     <script>
         
         function PullWeather(){
-            var url = "http://api.openweathermap.org/data/2.5/weather?lat=8.385722&lon=99.972066&appid=a455c00476d1492900b85d3a61b5c51a&units=metric";
+            var url = "https://api.openweathermap.org/data/2.5/weather?lat=8.385722&lon=99.972066&appid=a455c00476d1492900b85d3a61b5c51a&units=metric";
            
             $.getJSON(url)
                 .done((data)=>{
