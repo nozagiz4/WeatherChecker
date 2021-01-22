@@ -179,7 +179,7 @@
                         +"<p><span>Wind speed : "+data.wind.speed+" ms</span></p>"
                         +"<p><span>Wind degrees : "+data.wind.deg+" degrees</span></p>"
                         +"<p><span>Clouds : "+data.clouds.all+" %</span></p>"
-                        +"<p><span>Data update : "+update.+"</span></p>"
+                        +"<p><span>Data update : "+update+"</span></p>"
                         "</span>"
                         $("#hid").append(line);
                      
